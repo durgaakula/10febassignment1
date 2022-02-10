@@ -1,0 +1,36 @@
+sno=int(input('enter student roll number'))
+sname=input('enter student name')
+sgroup=input('enter group ')
+s1=int(input('os'))
+s2=int(input('afm'))
+s3=int(input('java'))
+s4=int(input('english'))
+s5=int(input('telugu'))
+s6=int(input('analytical skills'))
+s7=int(input('python'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s6>=35 and s7>=35:
+    print('pass')
+else:
+    print('fail')
+    
+    enter student roll number
+21
+enter student name
+Susmitha
+enter group 
+bca
+os
+75
+afm
+75
+java
+75
+english
+75
+telugu
+75
+analytical skills
+45
+python
+75
+pass
